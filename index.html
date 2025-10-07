@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <section id="main">
+        <div class="main_image">
+            <img src="img/home.png">
+        </div>
+        <div class="main_text">
+            <h2>Cuidar do solo é cuidar do futuro</h2>
+            <p>
+                Nosso sensor IoT ajuda pequenos e médios produtores a agir antes que o fogo se espalhe, reduzindo riscos de queimadas, evitando multas e preservando a produtividade da terra.
+            </p>
+        </div>
+    </section>
+
+    <!-- Simulação -->
+
+    <section id="simulador">
+        <div class="simulador_texto">
+            <h2>Descubra como reduzir seus custos com prevenção inteligente</h2>
+            <p>
+                A calculadora utiliza dados médios de lucros por hectare, custos de recuperação do solo e valores de multas previstos em lei para áreas agrícolas e de vegetação nativa. A partir das informações que você insere (tipo de produção, área e lucro mensal), simulamos os prejuízos em caso de queimadas e comparamos com o cenário de uso do sensor IoT. Assim, você visualiza o quanto pode economizar, tanto evitando perdas de produção quanto reduzindo riscos de penalidades.
+            </p>
+        </div>
+
+        <div class="simulador-form">
+            <form>
+                <label for="area">Área monitorada (hectares)*</label>
+                <input type="number" id="area" name="area">
+
+                <label for="tipo_producao">Tipo de produção*</label>
+                <select id="tipo_producao" name="tipo_producao">
+                </select>
+
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="vegetacao"> Vegetação nativa presente</label><br>
+                    <label><input type="checkbox" name="tecnologia"> Usa tecnologia de prevenção</label><br>
+                    <label><input type="checkbox" name="irrigacao"> Próximo a terra indígena</label>
+                </div>
+
+                <button onclick="">Simular agora</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+
+    <section id="depoimentos">
+        <h2>Prevenção que gera confiança e economia</h2>
+        <p>Cada experiência é uma prova do impacto positivo da tecnologia.</p>
+
+        <div class="depoimentos_container">
+            <div class="depoimento">
+                <h3>Cliente A</h3>
+                <p>
+                    “Com o sensor de umidade, consegui monitorar melhor minhas áreas de cultivo e agir antes que qualquer foco de incêndio se espalhasse. Isso me trouxe tranquilidade e reduziu muito os riscos na produção.”
+                </p>
+                <span>* 4.5</span>
+            </div>
+
+            <div class="depoimento">
+                <h3>Cliente B</h3>
+                <p>
+                    “Antes eu não tinha noção real do prejuízo que um incêndio poderia causar. A calculadora e o sensor mostraram claramente os custos de recuperação e das multas. Hoje enxergo o investimento como essencial.”
+                </p>
+                <span>* 4.5</span>
+            </div>
+
+            <div class="depoimento">
+                <h3>Cliente C</h3>
+                <p>
+                    “A instalação foi simples e os dados são fáceis de acompanhar. Para mim, o maior benefício é saber que estou prevenindo perdas e evitando problemas legais, enquanto garanto mais produtividade no campo.” 
+                </p>
+                <span>* 4.5</span>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
